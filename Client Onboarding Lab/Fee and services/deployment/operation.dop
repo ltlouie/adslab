@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Fee and services">
+  <name>Fee_and_services</name>
+  <uuid>b6f2706b-2f99-43d2-a3db-28fea27b1727</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#cf0d596a-9dd6-4597-a205-21d6c5955070"/>
+  <targetRuleProject href="../../Fee%20and%20services#1a7beec6-3b98-49de-9fec-404095e390f9"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["feeAndServices"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

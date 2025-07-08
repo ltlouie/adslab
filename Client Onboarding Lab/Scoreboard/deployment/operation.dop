@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Scoreboard">
+  <name>Scoreboard</name>
+  <uuid>0971821d-0ca1-40ee-9cb9-057b2a9513ea</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#c4aaedee-ae1d-4634-b65c-a0b10357eb0d"/>
+  <targetRuleProject href="../../Scoreboard#dd0d8e46-5c73-40e8-9bc9-e3080320550b"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["scoreboard"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

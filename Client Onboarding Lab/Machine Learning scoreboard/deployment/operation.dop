@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Machine Learning scoreboard">
+  <name>Machine_Learning_scoreboard</name>
+  <uuid>586e0700-db41-4b05-b4e4-633e90de95ee</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#a110d8f0-ee2a-46b4-ae54-c2d414881eae"/>
+  <targetRuleProject href="../../Machine%20Learning%20scoreboard#67637866-21ef-4d1e-9401-bf6b2f2f7ffa"/>
+  <tags key="ProviderType">
+    <value><![CDATA[OPS]]></value>
+  </tags>
+  <tags key="ProviderId">
+    <value><![CDATA[disconnectedProvider]]></value>
+  </tags>
+  <tags key="operationType">
+    <value><![CDATA[Predictive]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

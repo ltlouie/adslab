@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>take services</name>
+  <uuid>c18a032f-f522-4e54-9ecf-ffb6155d939a</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[ set decision to the services subsets computed from
+      Services count being 'Additional services count' , 
+      Services list being 'Complementary services' ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

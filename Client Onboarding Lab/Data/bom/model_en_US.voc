@@ -1,0 +1,102 @@
+
+# Term: Extended services
+@Extended\ services#plural = Extended services
+
+# Term: Services requested
+@Services\ requested#plural = Services requested
+
+# decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation#concept.label = Client Information
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.ClientInformation(long,long,boolean,long)#phrase.navigation = a new {Client Information} where {0, Annual Revenue} {1, Company Age} {2, Defaulted Payment} {3, Number of Employees}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.annualRevenue#phrase.action = set the Annual Revenue of {this} to {Annual Revenue}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.annualRevenue#phrase.addition_setter = add {Annual Revenue} to the Annual Revenue of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.annualRevenue#phrase.navigation = {Annual Revenue} of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.annualRevenue#phrase.subtraction_setter = subtract {Annual Revenue} from the Annual Revenue of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.companyAge#phrase.action = set the Company Age of {this} to {Company Age}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.companyAge#phrase.addition_setter = add {Company Age} to the Company Age of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.companyAge#phrase.navigation = {Company Age} of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.companyAge#phrase.subtraction_setter = subtract {Company Age} from the Company Age of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.defaultedPayment#phrase.action[0] = {this} gets Defaulted Payment only if {Defaulted Payment}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.defaultedPayment#phrase.action[1] = make it {Defaulted Payment} that {this} is Defaulted Payment
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.defaultedPayment#phrase.action[1].deprecated = true
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.defaultedPayment#phrase.navigation = {this} is Defaulted Payment
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.defaultedPayment#phrase.negative_predicate = {this} is not Defaulted Payment
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.defaultedPayment#phrase.negative_predicate_setter = {this} does not get Defaulted Payment
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.defaultedPayment#phrase.positive_predicate_setter = {this} gets Defaulted Payment
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.numberOfEmployees#phrase.action = set the Number of Employees of {this} to {Number of Employees}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.numberOfEmployees#phrase.addition_setter = add {Number of Employees} to the Number of Employees of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.numberOfEmployees#phrase.navigation = {Number of Employees} of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ClientInformation.numberOfEmployees#phrase.subtraction_setter = subtract {Number of Employees} from the Number of Employees of {this}
+
+# decisions.client_onboarding.client_onboarding_decisions.data.Industry
+decisions.client_onboarding.client_onboarding_decisions.data.Industry#concept.label = Industry
+decisions.client_onboarding.client_onboarding_decisions.data.Industry.federal#instance.label = Federal
+decisions.client_onboarding.client_onboarding_decisions.data.Industry.finance#instance.label = Finance
+decisions.client_onboarding.client_onboarding_decisions.data.Industry.healthcare#instance.label = Healthcare
+decisions.client_onboarding.client_onboarding_decisions.data.Industry.insurance#instance.label = Insurance
+decisions.client_onboarding.client_onboarding_decisions.data.Industry.telecom#instance.label = Telecom
+
+# decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard#concept.label = Scoreboard
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.Scoreboard(double,boolean,java.lang.String)#phrase.navigation = a new {Scoreboard} where {0, Confidence} {1, High risk} {2, Segment}
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.confidence#phrase.action = set the Confidence of {this} to {Confidence}
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.confidence#phrase.addition_setter = add {Confidence} to the Confidence of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.confidence#phrase.navigation = {Confidence} of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.confidence#phrase.subtraction_setter = subtract {Confidence} from the Confidence of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.highRisk#phrase.action[0] = {this} gets High risk only if {High risk}
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.highRisk#phrase.action[1] = make it {High risk} that {this} is High risk
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.highRisk#phrase.action[1].deprecated = true
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.highRisk#phrase.navigation = {this} is High risk
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.highRisk#phrase.negative_predicate = {this} is not High risk
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.highRisk#phrase.negative_predicate_setter = {this} does not get High risk
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.highRisk#phrase.positive_predicate_setter = {this} gets High risk
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.segment#phrase.action = set the Segment of {this} to {Segment}
+decisions.client_onboarding.client_onboarding_decisions.data.Scoreboard.segment#phrase.navigation = {Segment} of {this}
+
+# decisions.client_onboarding.client_onboarding_decisions.data.Service
+decisions.client_onboarding.client_onboarding_decisions.data.Service#concept.label = Service
+decisions.client_onboarding.client_onboarding_decisions.data.Service.businessDevices#instance.label = Telecom: Business Devices
+decisions.client_onboarding.client_onboarding_decisions.data.Service.communicationEquipment#instance.label = Telecom: Communication Equipment
+decisions.client_onboarding.client_onboarding_decisions.data.Service.corporateCreditCard#instance.label = Finance: Corporate Credit Card
+decisions.client_onboarding.client_onboarding_decisions.data.Service.educationFunding#instance.label = Federal: Education Funding
+decisions.client_onboarding.client_onboarding_decisions.data.Service.employeeBenefitsPlan#instance.label = Healthcare: Employee Benefits Plan
+decisions.client_onboarding.client_onboarding_decisions.data.Service.externalAudit#instance.label = Finance: External Audit
+decisions.client_onboarding.client_onboarding_decisions.data.Service.fibreInternet#instance.label = Telecom: Fibre Internet
+decisions.client_onboarding.client_onboarding_decisions.data.Service.fraudProtection#instance.label = Finance: Fraud Protection
+decisions.client_onboarding.client_onboarding_decisions.data.Service.greenTechnologyEquipment#instance.label = Federal: Green Technology Equipment
+decisions.client_onboarding.client_onboarding_decisions.data.Service.infrastructureConsultation#instance.label = Federal: Infrastructure Consultation
+decisions.client_onboarding.client_onboarding_decisions.data.Service.loanInsurance#instance.label = Insurance: Loan Insurance
+decisions.client_onboarding.client_onboarding_decisions.data.Service.medicalInsurance#instance.label = Insurance: Medical Insurance
+decisions.client_onboarding.client_onboarding_decisions.data.Service.mentalHealthCare#instance.label = Healthcare: Mental Health Care
+decisions.client_onboarding.client_onboarding_decisions.data.Service.merchandiseInsurance#instance.label = Insurance: Merchandise Insurance
+decisions.client_onboarding.client_onboarding_decisions.data.Service.onsiteMedicalTesting#instance.label = Healthcare: On-site Medical Testing
+decisions.client_onboarding.client_onboarding_decisions.data.Service.taxConsultation#instance.label = Finance: Tax Consultation
+decisions.client_onboarding.client_onboarding_decisions.data.Service.tielineSolution#instance.label = Telecom: Tie-line Solution
+decisions.client_onboarding.client_onboarding_decisions.data.Service.transportSecurity#instance.label = Federal: Transport Security
+decisions.client_onboarding.client_onboarding_decisions.data.Service.virtualMedicalAssistance#instance.label = Healthcare: Virtual Medical Assistance
+decisions.client_onboarding.client_onboarding_decisions.data.Service.warehouseInsurance#instance.label = Insurance: Warehouse Insurance
+
+# decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation#concept.label = Service Information
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation.ServiceInformation(java.util.List,long)#phrase.navigation = a new {Service Information} where {0, Extended services} {1, Services Fee}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation.addTo_extendedServices(decisions.client_onboarding.client_onboarding_decisions.data.Service)#phrase.action = add {0} to the Extended services of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation.clear_extendedServices()#phrase.action = clear the Extended services of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation.extendedServices#phrase.action = set the Extended services of {this} to {Extended services}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation.extendedServices#phrase.navigation = {Extended services} of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation.removeFrom_extendedServices(decisions.client_onboarding.client_onboarding_decisions.data.Service)#phrase.action = remove {0} from the Extended services of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation.servicesFee#phrase.action = set the Services Fee of {this} to {Services Fee}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation.servicesFee#phrase.addition_setter = add {Services Fee} to the Services Fee of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation.servicesFee#phrase.navigation = {Services Fee} of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation.servicesFee#phrase.subtraction_setter = subtract {Services Fee} from the Services Fee of {this}
+
+# decisions.client_onboarding.client_onboarding_decisions.data.ServiceRequest
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceRequest#concept.label = Service Request
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceRequest.ServiceRequest(decisions.client_onboarding.client_onboarding_decisions.data.Industry,java.util.List)#phrase.navigation = a new {Service Request} where {0, Industry} {1, Services requested}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceRequest.addTo_servicesRequested(decisions.client_onboarding.client_onboarding_decisions.data.Service)#phrase.action = add {0} to the Services requested of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceRequest.clear_servicesRequested()#phrase.action = clear the Services requested of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceRequest.industry#phrase.action = set the Industry of {this} to {Industry}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceRequest.industry#phrase.clearer = clear the Industry of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceRequest.industry#phrase.navigation = {Industry} of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceRequest.removeFrom_servicesRequested(decisions.client_onboarding.client_onboarding_decisions.data.Service)#phrase.action = remove {0} from the Services requested of {this}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceRequest.servicesRequested#phrase.action = set the Services requested of {this} to {Services requested}
+decisions.client_onboarding.client_onboarding_decisions.data.ServiceRequest.servicesRequested#phrase.navigation = {Services requested} of {this}

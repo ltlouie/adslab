@@ -1,0 +1,11 @@
+{
+  "description" : "List additional services and calculate associated fees based on client information provided during onboarding. Perform a client risk assessment.",
+  "groupId" : "cp4admin.lawrence_client_onboarding.client_onboarding_lab",
+  "locale" : "en_US",
+  "properties" : {
+    "refactoringEnabled" : false,
+    "tags" : [ ],
+    "indexingEnabled" : false
+  },
+  "extraProperties" : { }
+}

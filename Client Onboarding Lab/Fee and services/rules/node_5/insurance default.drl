@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>insurance default</name>
+  <uuid>2877fa8f-5e1f-49d6-ac26-4c5fc869c83f</uuid>
+  <documentation><![CDATA[Defines the list of available services for the industry Insurance.]]></documentation>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	the Industry of Services is Insurance 
+then
+	add Insurance: Loan Insurance to decision ;
+    add Insurance: Medical Insurance to decision ; 
+    add Insurance: Merchandise Insurance to decision ; 
+    add Insurance: Warehouse Insurance to decision ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>defaulted score</name>
+  <uuid>ea5e3f1a-5501-48c8-84ea-f12fd2d1916a</uuid>
+  <documentation><![CDATA[Defines a score of -1 if defaulted payment. ]]></documentation>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	Client is Defaulted Payment
+then
+	add -1 to decision ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
