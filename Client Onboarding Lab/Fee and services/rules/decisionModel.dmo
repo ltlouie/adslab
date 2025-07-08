@@ -18,7 +18,7 @@
     <decision id="node_1" name="Fee and services">
         <description>This is the final decision that determines the fees of the services requested and a suggestion for additional services to onboard.</description>
         <extensionElements>
-            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
                 <input bomType="java.lang.Long" collection="false" name="Fee"/>
                 <input bomType="decisions.client_onboarding.client_onboarding_decisions.data.Service" collection="true" name="Additional services"/>
                 <output bomType="decisions.client_onboarding.client_onboarding_decisions.data.ServiceInformation" collection="false" name="Fee and services"/>
